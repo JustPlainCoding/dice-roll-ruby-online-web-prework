@@ -8,5 +8,5 @@ end
 
 def roll_array
   array = Array.new(1..6)
-  puts array[rand(1..6)]
+  puts array[rand(0..5)]
 end
