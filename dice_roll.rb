@@ -5,3 +5,8 @@
 def roll
   rand(1..6)
 end
+
+def roll_array
+  array = rollArray.new(1..6)
+  arrray[rand(1..6)]
+end
