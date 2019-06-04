@@ -11,3 +11,5 @@ end
 def roll_array
   (1..6).to_a.sample
 end
+
+roll_array
