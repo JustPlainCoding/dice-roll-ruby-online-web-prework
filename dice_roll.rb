@@ -4,4 +4,5 @@
 
 def roll
   array = rollArray.new(1..6)
+  arrray[rand(1..6)]
 end
