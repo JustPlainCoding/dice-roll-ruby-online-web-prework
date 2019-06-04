@@ -9,7 +9,5 @@ def roll
 end
 
 def roll_array
-  array = Array.new(6, 1..6)
-  puts array[rand(0..5)]
-  binding.pry
+  (1..6).to_a.sample
 end
